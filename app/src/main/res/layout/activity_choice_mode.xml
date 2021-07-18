@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlightTrackerMain"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_1"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/smartphone_ico"
+            android:onClick="openWindowMode"
+            android:text="TRYB INTERAKTYWNY"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/world_ico"
+            android:onClick="openMapMode"
+            android:text="TRYB MAPY"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

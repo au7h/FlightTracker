@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlightTracker</string>
+    <string name="searchTxt">Nakieruj urządzenie w kierunku samolotu</string>
+    <string name="trackingSuccessTitle">Namierzanie udane!</string>
+    <string name="trackingSuccessSubtitle">Poniżej znajdują się informacje o locie: </string>
+    <string name="title_activity_choice_mode">ChoiceModeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
