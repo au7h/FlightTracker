@@ -241,7 +241,7 @@ public class StaticScreenModeActivity extends AppCompatActivity implements Async
 
                 if((f.getAngle1() >= (actualVerticalAngle - 30)) && (f.getAngle1() <= (actualVerticalAngle + 30))
                         && AngleArithm.close_angles(f.getAngle2(), actualHorizontalAngle, 10)) {
-                    icaoTxt.setText("ICAO 24-BIT ADDRES: " + f.getIcao24bitAddr());
+                    icaoTxt.setText("ICAO 24-BIT ADDRESS: " + f.getIcao24bitAddr());
                     regTxt.setText("REJESTRACJA: " + f.getRegistrationNumber());
                     latTxt.setText("SZEROKOŚĆ GEOGRAFICZNA: " + f.getActualLatitude());
                     lonTxt.setText("DŁUGOŚĆ GEOGRAFICZNA: " + f.getActualLongitude());
